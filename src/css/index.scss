@@ -73,6 +73,7 @@ a{
 	height:100px;
 	margin:0 auto;
 	background:#fff;
+	position: relative;
 }
 
 
@@ -91,12 +92,51 @@ a{
 
 
 .twob{
-	position: relative;
-	width:640px;
+    line-height: 100px;
+   	width:640px;
 	height:100px;
- 	float:left;
- 	margin-left:188px;
+   	float:left;
+   	margin-left:188px;
 }
+ 
+  
+.teshu{
+   
+    text-align: center;
+    width:1226px;
+    height:201px;
+    margin:0 auto;
+    position: absolute;
+    top:100px;
+    z-index: 30px;
+        ul{
+            line-height: 201px;
+            width:204px;
+            height:201px;
+            float:left;
+              li a img{
+                width:160px;
+                height:110px;
+             }
+                
+        }
+}
+
+.teshu a{
+       p{
+           color:#000;
+           
+       }
+       span{
+           color:#fff;
+          
+       }
+}
+
+
+
+
+
 
 .twob a{
 	line-height: 100px;
@@ -116,6 +156,10 @@ a{
  	float:right;
 	line-height: 100px;
 }
+
+
+
+
 
 
 .twod{
@@ -188,21 +232,62 @@ a{
 
 /* 广告图*/
 .banner{
+    position: relative;
 	width:1226px;
 	height:460px;
 	margin:0 auto;
 }
 
 .rightb{
+    ul{
+        position: relative;
+        top:0;
+        right:0;
+        li{
+            position: absolute;
+            top:0;
+            right:0;
+            img{
+                 width:992px;
+                 height:460px;
+                 white-space: normal;
+            }
+         }
+    }
 	width:992px;
 	height:460px;
 	float:right;
+	position: relative;
+	ol{
+	    width:100px;
+	    height:18px;
+	    line-height: 18px;
+	    position: absolute;
+	    float:right;
+	    bottom:30px;
+	    right:25px;
+	    
+	    li{
+	        display: block;
+            width: 6px;
+            height: 6px;
+            margin: 0 5px;
+            border: 2px solid #fff;
+            border-color: rgba(255,255,255,0.3);
+            border-radius: 10px;
+            float: left;
+            text-indent: -9999px;
+            overflow: hidden; 
+	    }
+	}
 }
-.rightb img{
-	width:992px;
-	height:460px;
-	white-space: normal;
-}
+
+
+
+
+
+
+ 
 
 .lefta{
 	width:234px;
@@ -304,9 +389,7 @@ a{
 	height:170px;
 }
 
-
-
-
+ 
 
 
 

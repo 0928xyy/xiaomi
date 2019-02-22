@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="../css/zhuye.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/index.min.css"/>
 	</head>
 	<body>
 		<!--头部-->
@@ -68,21 +68,12 @@
  		<!--搜索输入-->
  		<div class = "container2" >
  			<div class="twoa">
- 				<img src="../images/logo.png" alt="" />
+ 				<img src="../img/logo.min.png" alt="" />
  			</div>
- 			<div class="twob">
- 				<a href="#">小米手机</a>
- 				<a href="#">红米</a>
- 				<a href="#">电视</a>
- 				<a href="#">笔记本</a>
- 				<a href="#">家电</a>
- 				<a href="#">新品</a>
- 				<a href="#">路由器</a>
- 				<a href="#">智能硬件</a>
- 				<a href="#">服务</a>
- 				<a href="#">社区</a>
- 			</div>
- 			<div class="twoc">
+   		<div class="twob">
+             <!--   //a  头部的 标签-->
+ 				</div>
+   			<div class="twoc">
  				<div class="twod" id="twod">
  					<div class="btn">
 	 					<input type="text" id="aa"/>
@@ -159,7 +150,21 @@
  				</div>
 
   			</div>
- 		    <div></div>
+  		   <div class="teshu" id="teshu">
+  		   	<!--
+              <ul>
+  		   	  	<li>
+	  		   	   <a href="page.html">
+	  		   	   	 <img src="../img/s3.min.png" alt="" />
+	  		   	   	 <p>小米1</p>
+	  		   	   	 <p>890</p>
+	  		   	   </a>
+  		   	  	</li>
+  		   	  </ul>
+                 -->
+  		   	 
+  		   	
+  		   </div>
  		</div>
  		
  		
@@ -209,8 +214,43 @@
  					</li>
  				</ul>
  			</div>
- 			<div class="rightb">
- 				<img src="../images/banner.jpg" alt="" />
+ 			
+
+
+
+
+           <div class="rightb">
+           	   <ul>
+           	   	<li>
+           	   		<img src="../img/a1.min.jpg" alt="" />
+           	   	</li>
+           	   	
+           	   	<li>
+           	   		<img src="../img/a2.min.jpg" alt="" />
+           	   	</li>
+ 
+            	<li>
+           	   		<img src="../img/a3.min.jpg" alt="" />
+           	   	</li>
+ 
+            	<li>
+           	   		<img src="../img/a4.min.jpg" alt="" />
+           	   	</li>
+ 
+            	<li>
+           	   		<img src="../img/a5.min.jpg" alt="" />
+           	   	</li>
+ 
+ 
+           	   </ul>
+           	   
+  				<ol>
+  					<li class="current"></li>
+  					<li></li>
+  					<li></li>
+  					<li></li>
+  					<li></li>
+  				</ol>
  			</div>
  			
  		</div>
@@ -250,15 +290,15 @@
 	   	     <div class="subrowright">
 	   	     	<ul>
 	   	     		<li>
-	   	     			<img src="../images/1.jpg" alt="" />
+	   	     			<img src="../img/1.min.jpg" alt="" />
 	   	     		</li>
 	   	     		 
 	   	     		 <li>
-	   	     			<img src="../images/2.jpg" alt="" />
+	   	     			<img src="../img/2.min.jpg" alt="" />
 	   	     		</li>
 	   	     		 
 	   	     		 <li>
-	   	     			<img src="../images/3.jpg" alt="" />
+	   	     			<img src="../img/3.min.jpg" alt="" />
 	   	     		</li>
 	   	     	</ul>
 	   	     </div>
@@ -268,13 +308,91 @@
 	
 	</body>
 </html>
-<script src="common.js"></script>
+<script src = "../js/jquery.min.js"></script>
+<script src="../js/common.js"></script>
 <script>
-	$id("aa").onfocus =function(){
+	window.onload = function() {
+
+		//使用ajax请求index.json中的数据
+		var deff = $.ajax({
+			type: "get",
+			url: "../json/index.json",
+			async: true
+		});
+		deff.done(function(json) {
+			var title = ""; //定义一个字符串
+			var strCon = ""; //定义一个内容
+			for(var attr in json) {
+				//拼接类型的名称
+				title += `<a href="#" cname='${attr}'>${ json[attr].name}</a>`;
+				for(var i = 0; i < json[attr].list.length; i++) {
+					var pro = json[attr].list[i];
+				}
+			}
+			//显示标题
+			$(".twob").html(title);
+			//显示内容
+			$(".teshu").html(strCon)
+				//标题添加移入事件
+			$(".twob a").mouseenter(function() {
+				var cname = $(this).attr("cname");
+				var str = "";
+				for(var i = 0; i < json[cname].list.length; i++) {
+					var pro = json[cname].list[i];
+					str += `<ul id="teshua">
+					  		   <li>
+						  		   <a href="page.html">
+						  		   	   <img src="../img/${pro.src}" alt="" />
+						  		   	   <p>${pro.name}</p>
+						  		   	   <span>${pro.price}</span>
+						  		   	</a>
+					  		   	</li>
+					     </ul>`;
+				}
+				$(".teshu").html(str)
+				$(".teshu").css("background", "red");
+			})
+
+			$(".teshu").mouseleave(function() {
+				$(".teshu ul").remove();
+				$(".teshu").css("background", "none");
+			})
+
+		})
+
+	};
+	
+	
+	
+	
+	
+	
+	
+
+	$id("aa").onfocus = function() {
 		$id("twod-a").style.display = "block"
 	}
-	
-	$id("aa").onblur =function(){
+
+	$id("aa").onblur = function() {
 		$id("twod-a").style.display = "none"
-	}
+	};
+	
+	
+	
+	
+	
+//	
+//	$(function(){
+//		var timer = setInterval(auto,1500);
+//		var index = 0;
+//		function auto(){
+//			index++;
+//			if( index == $("ol li").size() ){
+//				index = 0;
+//			}
+//			$("ol li").eq(index).addClass("current").siblings().removeClass("current");
+//			$("ul li").eq(index).fadeIn(1000).siblings().fadeOut(1000);
+//		}
+//	
+	
 </script>

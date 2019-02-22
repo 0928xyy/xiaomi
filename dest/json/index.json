@@ -1,0 +1,338 @@
+{
+	"classify001":{
+		"name" : "小米手机",
+		"list" : [
+			{
+				"id" : "shop012",
+				"name" : "小米1",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop0012",
+				"name" : "小米2",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop03",
+				"name" : "小米3",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "小米4",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop05",
+				"name" : "小米5",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop06",
+				"name" : "小米6",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			}
+		]
+	},
+
+	"classify002":{
+		"name" : "红米",
+		"list" : [
+			{
+				"id" : "shop6611",
+				"name" : "红米1",
+				"src" : "../img/s2.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop02",
+				"name" : "红米2",
+				"src" : "../img/s2.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop13",
+				"name" : "红米3",
+				"src" : "../img/s2.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "红米4",
+				"src" : "../img/s2.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop15",
+				"name" : "红米5",
+				"src" : "../img/s2.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop16",
+				"name" : "红米6",
+				"src" : "../img/s2.min.png",
+				"price" : "999"
+			}
+ 		]
+	},
+	
+	"classify003":{
+		"name" : "电视",
+		"list" : [
+			{
+				"id" : "shop012",
+				"name" : "电视1",
+				"src" : "../img/s3.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop0012",
+				"name" : "电视2",
+				"src" : "../img/s3.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop03",
+				"name" : "电视3",
+				"src" : "../img/s3.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "电视4",
+				"src" : "../img/s3.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop05",
+				"name" : "电视5",
+				"src" : "../img/s3.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop06",
+				"name" : "电视6",
+				"src" : "../img/s3.min.png",
+				"price" : "999"
+			}
+		]
+	},
+
+	"classify004":{
+		"name" : "笔记本",
+		"list" : [
+			{
+				"id" : "shop6611",
+				"name" : "笔记本1",
+				"src" : "../img/s4.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop02",
+				"name" : "笔记本2",
+				"src" : "../img/s4.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop13",
+				"name" : "笔记本3",
+				"src" : "../img/s4.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "笔记本4",
+				"src" : "../img/s4.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop15",
+				"name" : "笔记本5",
+				"src" :"../img/s4.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop16",
+				"name" : "笔记本6",
+				"src" : "../img/s4.min.png",
+				"price" : "999"
+			}
+ 		]
+	},
+	
+	"classify005":{
+		"name" : "家电",
+		"list" : [
+			{
+				"id" : "shop012",
+				"name" : "家电1",
+				"src" : "../img/s5.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop0012",
+				"name" : "家电2",
+				"src" : "../img/s5.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop03",
+				"name" : "家电3",
+				"src" : "../img/s5.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "家电4",
+				"src" : "../img/s5.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop05",
+				"name" : "家电5",
+				"src" : "../img/s5.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop06",
+				"name" : "家电6",
+				"src" : "../img/s5.min.png",
+				"price" : "999"
+			}
+		]
+	},
+
+	"classify006":{
+		"name" : "新品",
+		"list" : [
+			{
+				"id" : "shop6611",
+				"name" : "新品1",
+				"src" :  "../img/3G.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop02",
+				"name" : "新品2",
+				"src" : "../img/3G.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop13",
+				"name" : "新品3",
+				"src" : "../img/3G.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "新品4",
+				"src" : "../img/3G.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop15",
+				"name" : "新品5",
+				"src" : "../img/3G.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop16",
+				"name" : "新品6",
+				"src" : "../img/3G.min.png",
+				"price" : "999"
+			}
+ 		]
+	},
+	
+    "classify007":{
+		"name" : "路由器",
+		"list" : [
+			{
+				"id" : "shop012",
+				"name" : "路由器1",
+				"src" : "../img/32.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop0012",
+				"name" : "路由器2",
+				"src" : "../img/32.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop03",
+				"name" : "路由器3",
+				"src" : "../img/32.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "路由器4",
+				"src" : "../img/32.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop05",
+				"name" : "路由器5",
+				"src" : "../img/32.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop06",
+				"name" : "路由器6",
+				"src" : "../img/32.min.png",
+				"price" : "999"
+			}
+		]
+	},
+
+	"classify008":{
+		"name" : "智能硬件",
+		"list" : [
+			{
+				"id" : "shop6611",
+				"name" : "智能硬件1",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop02",
+				"name" : "智能硬件2",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop13",
+				"name" : "智能硬件3",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "智能硬件4",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop15",
+				"name" : "智能硬件5",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop16",
+				"name" : "智能硬件6",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			}
+ 		]
+	}
+	
+ }
