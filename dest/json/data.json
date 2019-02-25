@@ -1,0 +1,43 @@
+{
+	"classify001":{
+		"name" : "小米手机",
+		"list" : [
+			{
+				"id" : "shop012",
+				"name" : "小米1",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop0012",
+				"name" : "小米2",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop03",
+				"name" : "小米3",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "小米4",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop05",
+				"name" : "小米5",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop06",
+				"name" : "小米6",
+				"src" : "../img/s1.min.png",
+				"price" : "999"
+			}
+		]
+	},
+}

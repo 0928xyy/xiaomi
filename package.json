@@ -28,6 +28,7 @@
     "gulp-uglify": "^3.0.1"
   },
   "dependencies": {
+    "imagemin": "^6.1.0",
     "sass": "^1.17.1"
   }
 }

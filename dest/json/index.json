@@ -333,6 +333,88 @@
 				"price" : "999"
 			}
  		]
+	},
+	"classify009":{
+		"name" : "智能硬件",
+		"list" : [
+			{
+				"id" : "shop6611",
+				"name" : "智能硬件1",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop02",
+				"name" : "智能硬件2",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop13",
+				"name" : "智能硬件3",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "智能硬件4",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop15",
+				"name" : "智能硬件5",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop16",
+				"name" : "智能硬件6",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			}
+ 		]
+	},
+	"classify10":{
+		"name" : "智能硬件",
+		"list" : [
+			{
+				"id" : "shop6611",
+				"name" : "智能硬件1",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop02",
+				"name" : "智能硬件2",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop13",
+				"name" : "智能硬件3",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop04",
+				"name" : "智能硬件4",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop15",
+				"name" : "智能硬件5",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			},
+			{
+				"id" : "shop16",
+				"name" : "智能硬件6",
+				"src" : "../img/50.min.png",
+				"price" : "999"
+			}
+ 		]
 	}
 	
  }
