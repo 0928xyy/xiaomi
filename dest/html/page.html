@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<link rel="stylesheet" href="../css/page.min.css" />
+		<title></title>
+	</head>
+	<body>
+		<div class="nar"></div>
+		<div class="banner">
+			<div class="banner-top">
+				<h3><img src="../img/logo.min.png" alt="" /></h3>
+				<h4>注册小米账号</h4>
+			</div>
+			<div class="banner-bottom">
+				<form action="login.html" method="get" id="from">
+					<h3>请输入您的手机号</h3>
+					<input type="text" placeholder="请输入手机号" id="txt"/>
+					<p id="s1"></p>
+					<h3>密码（请数字和字母组成，不能少于3位）</h3>
+					<input type="password"  placeholder=""/ id="pwd">
+					<p id="s2"></p>
+ 					<h3>再次确定密码</h3>
+					<input type="password" id="qpwd" />
+					<p id="s3"></p>
+					<input type="submit" value="注册"/ id="smb">
+				</form>
+  			</div>
+ 		</div>
+		
+		<div class="footer">
+			 
+		</div>
+	</body>
+</html>
+<script src="../js/jquery.min.js"></script>
+ <script src="../js/sport2.js"></script>
+<script src="../js/cookie.js"></script>
+
+ <script type="text/javascript">
+ 
+      	
+      	var txt = $("#txt");
+      	var pwd = $("#pwd");
+      	var qpwd = $("#qpwd");
+      	var smb = $("#smb");
+   
+	        $("form").submit(function(){
+			if(flagName && flagImg && flagQpwd){
+ 				var $phone = txt.val();
+				var $pwd = pwd.val();
+				var $qpwd = qpwd.val();
+//				console.log($phone);
+//				console.log($pwd);
+//				console.log($qpwd);
+  				document.cookie = "username =" + $phone;
+ 				document.cookie = "userpwd ="  + $pwd;
+ 				return true;
+ 				alert("注册成功");
+ 				
+			}else{
+				return false;
+			}
+	     });
+
+            //手机号
+            var flagName = null;
+			$("#txt").blur(function(){
+   				var $txt = /^1[345678]\d{9}$/;
+				var str = $(this).val();
+				if( $txt.test(str) ){
+					$("#s1").html("手机号码收入成功")
+					flagName = true;
+					console.log(str)
+				}else if($(txt).val()==" "){
+					$("#s1").html("请输入您的手机号码")
+ 				}else{
+					$("#s1").html("你输入的手机号码格式有错误")
+					flagName = false;
+				}
+			});
+
+
+         //密码设置
+          var flagImg = null;
+          $("#pwd").blur(function(){
+			var $pwd = /^\w{3,}$/
+			var str = $(this).val();
+			if( $pwd.test(str) ){
+				$("#s2").html("密码输入成功")
+				flagImg = true;
+			}else if($(pwd).val()==" "){
+				$("#s2").html("密码不能为空")
+				}
+				else{
+					$("#s2").html("密码格式有误错误")
+					flagImg = true;
+				}
+		});
+          
+          //确认密码
+          	var flagQpwd = null;
+			$("#qpwd").blur(function(){
+				var str = $(this).val();
+				if( $(pwd).val() == $("#qpwd").val()  ){
+					$("#s3").html("密码设置成功");
+					flagQpwd = true;
+				}else{
+					$("#s3").html("密码不一致，请重新输入");
+					flagQpwd = false;
+				}
+			});
+
+</script>

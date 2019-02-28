@@ -36,4 +36,12 @@ gulp.task('default',()=>{
 //  	gulp.watch('./src/js/*.js',['js']);
 //   })
 //  	
+//gulp.task('sassCss',function(){
+//	 gulp.src('./src/css/page.scss')
+//	.pipe(sass())
+//	.pipe(cssmin())
+//	.pipe(rename('page.min.css'))
+//	.pipe(gulp.dest('./dest/css'));
+//	//console.log('nihao')
+//})
 	

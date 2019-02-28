@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/login.min.css" />
+		<title></title>
+	</head>
+	<body>
+		<div class="nar">
+			<img src="../img/logo.min.png" alt="" />
+			<h3>小米商城<p>让每个用户体会到科技得乐趣</p></h3>
+		</div>
+
+		<div class="bant">
+		     <div class="banner">
+			     <div class="banner-left">
+			     	<img src="../img/bei.min.png" alt="" />
+			     </div>
+			     
+			     <div class="banner-right">
+			     	  <div class="bannerR">
+			     	  	   <div class="bannerT">
+			     	  	   	<a href="#" id="btn1">账号登录<span>|</span></a>
+			     	  	   	<a href="#" id="btn">扫码登录</a>
+			     	  	   </div>
+			     	  	   <div class="bannerZ">
+			     	  	    
+			     	  	   	  	<form action="index.html" method="post">
+			     	  	   	  		<input type="text" placeholder="手机号码/邮箱/小米ID"/ id="bt1">
+			     	  	   	        <input type="password" placeholder="密码"/ id="bt2">
+			     	  	   	  		<input type="submit" value="登录" class="btn" id="btn"/>
+			     	  	   	  	</form>
+			     	  	   	 
+ 			     	  	   	  
+			     	  	   	  
+			     	  	   	     <p><a href="#">手机验证码登录/注册</a></p>
+			     	  	   	     <h2>
+			     	  	   	     	<a href="#">账号登录<span>|</span></a>
+			     	  	   	        <a href="#">扫码登录</a>
+			     	  	   	     </h2>
+			     	  	   </div>
+			     	  
+			     	      <div class="Sma"><img src="../img/erw.min.png" alt="" /></div>
+			     	  
+			     	  </div>
+			    
+			         <div class="bannerB">
+			         	 <h3>其他方式登录</h3>
+			         	   <p>
+			         	   	<a href="#"><img src="../img/jie.min.png" alt="" /></a>
+			         	   	<a href="#"><img src="../img/jie.min.png" alt="" /></a>
+			         	   	<a href="#"><img src="../img/jie.min.png" alt="" /></a>
+			         	   	<a href="#"><img src="../img/jie.min.png" alt="" /></a>
+			         	   </p>
+			         </div>
+			     
+			     </div>
+		
+		    </div> 
+	 
+		</div>
+		
+	</body>
+</html>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/cookie.js"></script>
+<script>
+    var btn = $("#btn");
+    var bt1 = $("#bt1");
+    var bt2 = $("#bt2");
+    
+    
+
+      window.onload =function(){
+      	var str = document.cookie;
+      	//console.log(str);
+      	var arr = str.split("; ");
+      	//console.log(arr);
+      	for(var i = 0;i<arr.length;i++){
+      		var item = arr[i].split("=");
+      		//console.log(item);
+      		//console.log(item[0],item[1]);
+      		//console.log(item[0] == "username");
+      		
+      		if(item[0] == "username"){		
+      			var username = item[1];
+      			//console.log("username");
+      		}
+      		//console.log(item[0] =="userpwd");
+      		if(item[0] =="userpwd"){
+      			var userpwd = item[1];
+      		}
+      	 }
+      	   $("form").submit(function(){
+		   	    var utname = $('#bt1').val();
+		   	   console.log(utname);
+		      	var utpwd = $('#bt2').val();
+		      	console.log(utpwd);
+		      	console.log(username === utname);
+		   	if(username === utname && userpwd ===utpwd){
+		   		 alert("登录成功");
+		   		 location.href = "index.html";
+		   		 return true;
+		   	}else{
+		   		alert("登录失败")
+		   		return false;
+		   	}
+		   })
+
+      }
+
+
+ 
+
+
+
+
+ 
+
+	 $('.bannerT a').mouseenter(function(){
+	 	$(this).css('color','#f57421')
+	 })	
+	 $('.bannerT a').mouseleave(function(){
+	 	$(this).css('color','#666666')
+	 })
+	 
+	 //选择项卡
+	 $('.bannerT a').click(function(){
+	 	$(this).css('color','#f57421');
+ 	 })	
+	
+	  $('#btn').click(function(){
+	  	$('.Sma').css('display','block');
+	  	$('.bannerZ').css('display','none');
+	  	$('.bannerB').css('display','none');
+	  })
+	  
+	  $('#btn1').click(function(){
+	  	$('.bannerZ').css('display','block');
+	  	$('.Sma').css('display','none');
+	  	$('.bannerB').css('display','block');
+ 	  })
+	  
+	  
+   $('.bannerZ h2 a').mouseenter(function(){
+	 	$(this).css('color','#f57421')
+	 })	
+
+   $('.bannerZ h2 a').mouseleave(function(){
+	 	$(this).css('color','#999999')
+	 })
+   
+   
+    
+   
+</script>

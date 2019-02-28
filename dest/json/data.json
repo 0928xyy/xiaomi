@@ -1,43 +1,738 @@
 {
 	"classify001":{
-		"name" : "小米手机",
+		"name" : "手机电话卡",
 		"list" : [
 			{
-				"id" : "shop012",
-				"name" : "小米1",
-				"src" : "../img/s1.min.png",
-				"price" : "999"
+ 				"name" : "小米1",
+				"src" : "../img/zhen.min.png"
+  			},
+			{
+ 				"name" : "小米2",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米3",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米4",
+				"src" : "../img/zhen.min.png"
 			},
 			{
-				"id" : "shop0012",
-				"name" : "小米2",
-				"src" : "../img/s1.min.png",
-				"price" : "999"
+			    "name" : "小米5",
+				"src" : "../img/zhen.min.png"
 			},
 			{
-				"id" : "shop03",
-				"name" : "小米3",
-				"src" : "../img/s1.min.png",
-				"price" : "999"
+			    "name" : "小米6",
+				"src" : "../img/zhen.min.png"
 			},
 			{
-				"id" : "shop04",
-				"name" : "小米4",
-				"src" : "../img/s1.min.png",
-				"price" : "999"
+ 				"name" : "小米7",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米8",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米9",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米10",
+				"src" : "../img/zhen.min.png"
 			},
 			{
-				"id" : "shop05",
-				"name" : "小米5",
-				"src" : "../img/s1.min.png",
-				"price" : "999"
+			    "name" : "小米11",
+				"src" : "../img/zhen.min.png"
 			},
 			{
-				"id" : "shop06",
-				"name" : "小米6",
-				"src" : "../img/s1.min.png",
-				"price" : "999"
+			    "name" : "小米12",
+				"src" : "../img/zhen.min.png"
+			},
+		    
+		    {
+ 				"name" : "小米13",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米14",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米15",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米16",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米17",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米18",
+				"src" : "../img/zhen.min.png"
+			},
+						{
+ 				"name" : "小米19",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米20",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米21",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米22",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米23",
+				"src" : "../img/zhen.min.png"
 			}
 		]
 	},
+	
+	
+	"classify002":{
+		"name" : "电视盒子",
+		"list" : [
+			{
+ 				"name" : "电视1",
+				"src" : "../img/zhen.min.png"
+  			},
+			{
+ 				"name" : "小米2",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米3",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米4",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米5",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米6",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+ 				"name" : "小米7",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米8",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米9",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米10",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米11",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米12",
+				"src" : "../img/zhen.min.png"
+			},
+		    
+		    {
+ 				"name" : "小米13",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米14",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米15",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米16",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米17",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米18",
+				"src" : "../img/zhen.min.png"
+			},
+						{
+ 				"name" : "小米19",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米20",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米21",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米22",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米23",
+				"src" : "../img/zhen.min.png"
+			},
+			
+			{
+			    "name" : "小米23",
+				"src" : "../img/zhen.min.png"
+			}
+		]
+	},
+	
+	"classify003":{
+		"name" : "笔记本 平板",
+		"list" : [
+			{
+ 				"name" : "电视1",
+				"src" : "../img/zhen.min.png"
+  			},
+			{
+ 				"name" : "小米2",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米3",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米4",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米5",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米6",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+ 				"name" : "小米7",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米8",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米9",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米10",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米11",
+				"src" : "../img/zhen.min.png"
+			}
+
+		]
+	},
+
+	"classify004":{
+		"name" : "家电插线板",
+		"list" : [
+			{
+ 				"name" : "电视1",
+				"src" : "../img/zhen.min.png"
+  			},
+			{
+ 				"name" : "小米2",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米3",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米4",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米5",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米6",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+ 				"name" : "小米7",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米8",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米9",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米10",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米11",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米12",
+				"src" : "../img/zhen.min.png"
+			},
+		    
+		    {
+ 				"name" : "小米13",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米14",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米15",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米16",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米17",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米18",
+				"src" : "../img/zhen.min.png"
+			},
+						{
+ 				"name" : "小米19",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米20",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米21",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米22",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米23",
+				"src" : "../img/zhen.min.png"
+			}
+ 		]
+	},
+	
+	"classify005":{
+		"name" : "出行穿戴",
+		"list" : [
+			{
+ 				"name" : "电视1",
+				"src" : "../img/zhen.min.png"
+  			},
+			{
+ 				"name" : "小米2",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米3",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米4",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米5",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米6",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+ 				"name" : "小米7",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米8",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米9",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米10",
+				"src" : "../img/zhen.min.png"
+			}
+  		]
+	},
+	
+	"classify006":{
+		"name" : "智能路由器",
+		"list" : [
+			{
+ 				"name" : "电视1",
+				"src" : "../img/zhen.min.png"
+  			},
+			{
+ 				"name" : "小米2",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米3",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米4",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米5",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米6",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+ 				"name" : "小米7",
+				"src" : "../img/zhen.min.png"
+ 			}
+   		]
+	},
+	
+    "classify007":{
+		"name" : "电源配件",
+		"list" : [
+			{
+ 				"name" : "电视1",
+				"src" : "../img/zhen.min.png"
+  			},
+			{
+ 				"name" : "小米2",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米3",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米4",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米5",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米6",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+ 				"name" : "小米7",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米8",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米9",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米10",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米11",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米12",
+				"src" : "../img/zhen.min.png"
+			},
+		    
+		    {
+ 				"name" : "小米13",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米14",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米15",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米16",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米17",
+				"src" : "../img/zhen.min.png"
+			}
+  		]
+	},
+	
+	"classify008":{
+		"name" : "健康儿童",
+		"list" : [
+			{
+ 				"name" : "小米1",
+				"src" : "../img/zhen.min.png"
+  			},
+			{
+ 				"name" : "小米2",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米3",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米4",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米5",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米6",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+ 				"name" : "小米7",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米8",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米9",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米10",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米11",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米12",
+				"src" : "../img/zhen.min.png"
+			},
+		    
+		    {
+ 				"name" : "小米13",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米14",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米15",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米16",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米17",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米18",
+				"src" : "../img/zhen.min.png"
+			},
+						{
+ 				"name" : "小米19",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米20",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米21",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米22",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米23",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米23",
+				"src" : "../img/zhen.min.png"
+			}
+		]
+	},
+	"classify009":{
+		"name" : "生活箱包",
+		"list" : [
+			{
+ 				"name" : "电视1",
+				"src" : "../img/zhen.min.png"
+  			},
+			{
+ 				"name" : "小米2",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米3",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米4",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米5",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米6",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+ 				"name" : "小米7",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米8",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米9",
+				"src" : "../img/zhen.min.png"
+ 			}
+   		]
+	},
+	
+		
+	"classify010":{
+		"name" : "耳机音箱",
+		"list" : [
+			{
+ 				"name" : "电视1",
+				"src" : "../img/zhen.min.png"
+  			},
+			{
+ 				"name" : "小米2",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米3",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米4",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米5",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米6",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+ 				"name" : "小米7",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米8",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米9",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米10",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米11",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米12",
+				"src" : "../img/zhen.min.png"
+			},
+		    
+		    {
+ 				"name" : "小米13",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米14",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+ 				"name" : "小米15",
+				"src" : "../img/zhen.min.png"
+ 			},
+			{
+			    "name" : "小米16",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米17",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+			    "name" : "小米18",
+				"src" : "../img/zhen.min.png"
+			},
+			{
+ 				"name" : "小米19",
+				"src" : "../img/zhen.min.png"
+ 			}
+ 		]
+	}
 }

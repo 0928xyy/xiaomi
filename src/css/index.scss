@@ -10,9 +10,102 @@ a{
 	text-decoration: none;
 	
 }
+
+.tobarT{
+    width:150px;
+    height:100px;
+    font-size:12px;
+    color:#008800;
+    background:#fff;
+    position:absolute;
+    right:0;
+    top:40px;
+     display: none;
+    text-align: center;
+}
+
+
+.txt{
+    width:294px;
+    height:48px;
+    margin-top:24px;
+    background:pink;
+    float:right;
+    position:relative;
+    input{
+        display: block;
+        border:none;
+        width:292px;
+        height:46px;
+        border:1px solid #e0e0e0;
+        float:left;
+    }
+    
+    .btn{
+        width:20px;
+        height:20px;
+        position:absolute;
+        top:14px;
+        right:26px;
+        margin-left:26px;
+    }
+    a{
+        height:18px;
+        font-size:10px;
+        background:#eeeeee;
+        display: block;
+        line-height: 18px;
+        text-align: center;
+    }
+}
+
+
+.tet-b{
+    width:243px;
+    height:170px;
+    position:absolute;
+    display: none;
+    z-index:70;
+    top:48px;
+    li{
+        padding-left:6px;
+         font-size:12px;
+        color:#333;
+        span{
+            float:right;
+            color:#b0b0b0;
+            padding-right:6px;
+        }
+    }
+    
+}
+
+
+.tobar-info:hover .tobarT{
+    display:block
+ }
+
+
+
+.txt p a:nth-child(1){
+     width:40px;
+     position:absolute;
+     top:14px;
+     left:128px;
+ }
+
+
+.txt p a:nth-child(2){
+     width:60px;
+     position:absolute;
+     top:14px;
+     left:174px;
+ }
+
 .topbar{
 	height:40px;
 	background:#333;
+	 
  }
 
 .topbar .container{  /*版心线*/
@@ -39,7 +132,7 @@ a{
 	padding:0 3px;
 }
 
-.topbar-nar a:hover,.tobar-info a:hover,.topbar-cart a:hover{
+.topbar-nar a:hover,.tobar-info a:hover,.topbar-cart a:hover,.footer-right p a:hover, .subrowleft ul li a:hover{
 	color:#fff;
 }
 
@@ -55,6 +148,8 @@ a{
   	width:120px;
 	height:40px;
 	text-align: center;
+	position:relative;
+	background:#424242;
 	a{
 	    color:#b0b0b0;
     	font-size:12px;
@@ -118,13 +213,13 @@ a{
         height:201px;
         margin:0 auto;
         position: absolute;
+        background:#fff;
         top:100px;
         text-align: center;
           ol{
              width:204px;
              height:200px;
-             background:oldlace;
-             float:left;
+              float:left;
               li{
                  float: left;
                  text-align: center;
@@ -160,8 +255,7 @@ a{
         width:1226px;
         height:460px;
         float:right;
-        position: relative;
-        ul li{
+          ul li{
             float: right;
             img{
                 position: absolute;
@@ -174,6 +268,13 @@ a{
     }
 }
 
+
+
+
+
+.banner-right ul{
+    position: relative;
+} 
 .banner-right ol{
         width:100px;
         height:18px;
@@ -195,6 +296,67 @@ a{
           }
 }
 
+.banner-bottom{
+    z-index:500;
+    position: absolute;
+    top:0;
+    left:234px;
+    
+    width:933px;
+    height:460px;
+     ul{
+        width:933px;
+        height:460px;
+        float:left; 
+        background:#fff;
+        display: none;     
+        li{
+            padding:3px 18px;
+            width:197px;
+            height:72px;
+            float:left;
+             img{
+                width:40px;
+                height:40px;
+                float:left;
+                padding-right:10px;
+              }
+            a{
+               color:#333;
+               font-size:12px;
+               line-height: 76px;
+               display: block;
+               line-height: 40px;
+               
+            }
+        }
+    }
+}
+
+.yng{
+    width:234px;
+    height:76px;
+    background:orangered;
+     text-align: center;
+     display: none;
+      p{
+        font-size:12px;
+        color:#fff;
+        padding-top:15px;
+    }
+    em{
+        font-size:12px;
+        color:#fff;
+        font-style:normal;
+    }
+}
+
+
+
+
+.banner-bottom ul li a:hover{
+    color:#ff6700;
+}
  ol li.current{
             background-color: pink;
         }
@@ -258,6 +420,14 @@ a{
     } 
 }
 
+
+
+.banner-left ul li:hover{
+    background:#ff6700;
+}
+  
+
+  
   
 .subrow{
     width:1226px;
@@ -268,15 +438,14 @@ a{
             width:234px;
             height:170px;
             float:left;
-            background:sienna;
-       }
+        }
        
        .subrowright{
             width:978px;
             height:170px;
             float:right;
             margin-left:14px;
-            background:forestgreen;
+           
         }
 }
 
@@ -337,11 +506,11 @@ a{
 
 .page{
     margin-top:42px;
-    height:6778px;
+    height:6777px;
     background:#f5f5f5;
     .page-min{
          width:1226px;
-         height:6778px;
+         height:6777px;
           margin:0 auto;
           .page-one{
              padding-top:40px;
@@ -384,17 +553,16 @@ a{
                      width:990px;
                      height:616px;
                      float:right;
+                     position:relative;
                      ul{
                          width:234px;
                          height:300px;
                          float:left;
                          margin:0 6px 12px;
                          background:#fff;
-                         li{
+                          li{
                               text-align: center;
-                              
-                              
-                             img{
+                              img{
                                  padding-top:20px;
                                  width:160px;
                                  height:160px;
@@ -440,7 +608,9 @@ a{
          }
     }
 
- 
+.page-right ul:hover{
+   
+}
 
 
 .xmas{
@@ -575,17 +745,16 @@ a{
 .box{
     width:1226px;
     height:460px;
-    background:pink;
+     
     h3{
         color:#333333;
         font-size:22px;
         
     }
      .box-n ul{
-         
-        width:298px;
+         width:298px;
         height:414px;
-        background:firebrick;
+        background:#fff;
         margin:18px 4px;
         float:left;
         li{
@@ -624,4 +793,256 @@ a{
         }
         
     }
+}
+
+
+
+
+.vison{
+    width:1226px;
+    height:328px;
+    margin-top:40px;
+     .myvideo-top{
+         width:1226px;
+         height:22px;
+         h3{
+             font-size:22px;
+             color:#333333;
+             float:left;
+         }
+         ul{
+             float:right;
+             li{
+                 float: left;
+             }
+         }
+     }
+     
+     .myvideo-bottom{
+         width:1226px;
+         height:288px;
+         float:left;
+         ul{
+             margin:18px 4px;
+             width:298px;
+             height:280px;
+             float: left;
+             background:#fff;
+             li{
+                
+                 img{
+                     width:296px;
+                     height:180px;
+                     
+                 }
+                 h4{
+                     
+                     padding-top:33px;
+                     width:298px;
+                     color:#333333;
+                     font-size:14px;
+                     text-align: center;
+                 }
+                 p{
+                     color:#b0b0b0;
+                     padding-top:12px;
+                      font-size:12px;
+                     text-align: center;
+                 }
+             }
+         }
+     }
+}
+
+
+
+.last-two{
+    margin:60px auto;
+    width:1226px;
+    height:274px;
+     .last-top{
+        height:77px;
+        width:1226px;
+         ul{
+           height:70px;
+           width:1226px;
+           float:left;
+           li{
+                text-align: center;
+               float:left;
+               padding-top:30px;
+               a{
+                   padding-right: 58px;
+                   padding-left: 58px;
+                   color:#616161;
+                   line-height: 16px;
+                   font-size:16px;
+               }
+            }
+        }
+    }
+    .last-bottom{
+        width:1226px;
+        height:196px;
+        
+        ul{
+            padding-top:42px;
+            width:158px;
+            height:122px;
+             float:left;
+            li{
+                h3{
+                    color:#424242;
+                    font-size:14px;
+                    padding-bottom: 7px;
+                }
+                a{
+                    color:#757575;
+                    font-size:12px;
+                    line-height: 30px;
+                 }
+            }
+        }
+        ol{
+            padding-top:42px;
+            width:250px;
+            height:158px;
+            border-left:1px solid #ececec;
+            float:left;
+            li{
+                padding-left:50px;
+                text-align: center;
+                h3{
+                    color:#ff6a00;
+                    font-size:18px;
+                 }
+                 p{
+                     padding-top:6px;
+                     font-size:12px;
+                     color:#616161;
+                     line-height: 20px;
+                 }
+                 a{
+                     margin-top:14px;
+                     display: block;
+                     width:118px;
+                     height:28px;
+                     border:1px solid #ff6a00;
+                     font-size:12px;
+                     line-height: 28px;
+                     color:#ff6a00;
+                  }
+            }
+        }
+    }
+}
+
+
+
+.footer{
+   height:174px;
+   background:#fafafa;
+    .footers{
+       margin-top:32px;
+       width:1226px;
+       height:174px;
+        .footer-left{
+           float:left;
+           img{
+               float:left;
+               width:55px;
+               height:55px;
+            }
+       }
+       
+       .footer-right{
+           width:1160px;
+           height:174px;
+           float:left;
+           margin-left:10px;
+            p{
+               width:1160px;
+                height:16px;
+               float:left;
+               a{
+                   font-size:12px;
+                   color:#333;
+               }
+           }
+            ul{
+               width:1160px;
+               height:80px;
+               float:left;
+               li{
+                   a{
+                       padding-right: 7px;
+                       font-size:12px;
+                       line-height: 18px;
+                       color:#b0b0b0;
+                   }
+               }
+           }
+       }
+    }
+}
+
+
+.footer-right p a:hover{
+    color:#008800;
+}
+
+
+ //   划上Ul的时候 有动画效果
+.page-right ul:hover{
+    box-shadow: 4px 4px 4px 4px LightGrey;
+  }
+.page-left:hover{
+    box-shadow: 4px 4px 4px 4px LightGrey;
+}
+
+
+.deo{
+    width:880px;
+     height:596px;
+     top:10%;
+     display: none;
+     position:fixed;
+     left:20%;
+     img{
+         width:880px;
+         height:536px;
+         overflow: hidden;
+         float:left;
+     }
+     #cas{
+         float:right;
+     }
+     h3{
+         
+     }
+     
+}
+
+
+.fus{
+    width:90px;
+    height:580px;
+    position:fixed;
+    top:20%;
+    right:0;
+    a{
+        width:90px;
+        display: block;
+        height:90px;
+         font-size:16px;
+        text-align: center;
+        line-height: 90px;
+        color:#9a9a9a;
+        border:1px solid #9a9a9a;
+    }
+}
+
+
+.fus a:hover{
+    color:orangered;
 }
